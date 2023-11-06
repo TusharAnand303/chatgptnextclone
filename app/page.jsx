@@ -1,15 +1,16 @@
+"use client"
 import React from 'react'
 import {SunIcon} from '@heroicons/react/24/outline';
 import {BoltIcon} from '@heroicons/react/24/outline';
-import {Bars3Icon} from '@heroicons/react/24/outline';
-import {PlusIcon} from '@heroicons/react/24/outline';
 import {ExclamationTriangleIcon} from '@heroicons/react/24/outline';
+import { signOut } from 'next-auth/react';
 
 const page = () => {
+
   return (
    <>
    <div className='text-white flex flex-col items-center justify-center h-screen'>
- 
+    
     <h1 className='md:text-5xl lg:text-5xl xl:text-5xl text-3xl font-bold md:mb-20 lg:mb-20 xl:mb-20 mb-5 text-gray-600'>ChatGPT </h1>
     <div className='flex justify-center items-center gap-5 text-center md:flex-row lg:flex-row xl:flex-row flex-col '>
 
